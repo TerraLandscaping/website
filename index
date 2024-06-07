@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('path/to/your/image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 0.5em 0;
+        }
+        .btn {
+            background: black;
+            color: white;
+            padding: 0.5em 2em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1em;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 1em;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="ford-logo.png" alt="Ford Logo" height="40">
+        </div>
+        <div class="nav-links">
+            <a href="#">Vehicles</a>
+            <a href="#">Shop</a>
+            <a href="#">Support & Service</a>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Built Ford Proud</h1>
+        <p>Step Up to the Starting Line</p>
+        <a href="#" class="btn">Explore Power</a>
+    </div>
+    <div class="footer">
+        This website uses cookies and other tracking technologies to enhance user experience...
+    </div>
+</body>
+</html>
